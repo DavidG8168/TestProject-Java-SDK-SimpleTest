@@ -10,7 +10,7 @@ public class BasicTests {
     @Test
     public void main() throws Exception {
 
-        ChromeDriver driver = new ChromeDriver("xMOUq-CTwc12Ru7Vjls1syE6uZ8B7vxcv1KAs55XaOY1" ,new ChromeOptions(), "CodeDavidJava");
+        ChromeDriver driver = new ChromeDriver(new ChromeOptions(), "CodeDavidJava");
 
         driver.navigate().to("https://example.testproject.io/web/");
 
